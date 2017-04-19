@@ -1,8 +1,48 @@
 body {
   font-family: 'Source Code Pro', monospace;
+  box-sizing: border-box;
 }
 
 #main-cotainer {
+  display: inline-block;
+  text-align: center;
+  padding: 40px;
+}
+
+.title {
   margin: 5%;
-  padding: 0;
+  padding: 20px 80px;
+}
+.title .text {
+  font-size: 16px;
+  font-weight: 400;
+}
+.title .linea {
+  background-color: #333;
+  width: 50px;
+  height: 7px;
+  border-radius: 2px;
+}
+
+.photos {
+  width: 100%;
+  margin: 0 80px;
+  padding: 0 40px;
+}
+.div-coder {
+  position: relative;
+  display: inline-block;
+  margin: 20px;
+}
+.div-coder .coder-photo {
+  width: 330px;
+  height: 300px;
+}
+.div-coder .coder-name {
+  position: absolute;
+  bottom: 20px;
+  right: 40px;
+  color: #f1f1f1;
+  font-size: 20px;
+  font-weight: 700;
 }
